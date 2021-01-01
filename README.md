@@ -3,7 +3,7 @@
 
 
 ### Features
-[x] Dynamic background
-[x] Horizontal card deck (Projects)
-[]	Description dynamically changing sentences
-[]	Setup blog structure
+ - [x] Dynamic background
+ - [x] Horizontal card deck (Projects)
+ - []	Description dynamically changing sentences
+ - []	Setup blog structure
