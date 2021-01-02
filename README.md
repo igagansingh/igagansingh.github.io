@@ -5,5 +5,5 @@
 ### Features
  - [x] Dynamic background
  - [x] Horizontal card deck (Projects)
- - []	Description dynamically changing sentences
+ - [x]	Integrating typed.js
  - []	Setup blog structure
