@@ -55,3 +55,20 @@
     });
     }
 })(jQuery); // End of use strict
+
+
+$(document).ready(function(){
+    var minimum=1, maximum=2047;
+    var randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
+    var settings = {
+        "url": "https://xkcd.now.sh/?comic="+randomnumber,
+        "method": "GET",
+    }
+    $.ajax(settings).done(function (response) {
+        console.log(response);
+        console.log(response["img"]);
+        console.log(response["title"]);
+        $("#xkcdTitle").text(response["title"]);
+        $("#xkcdImg").attr('src', response["img"]);
+    });
+});
